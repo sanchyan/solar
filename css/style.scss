@@ -1,0 +1,60 @@
+$color: (black: #000000);
+@function color($color-name) {
+	@return map-get($color, $color-name );
+}
+
+// #canvas {
+// 	background-color: color(black);
+// 	width: 100vw;
+// 	height: 100vh;
+// 	position: relative;
+// }
+
+body {
+	margin: 1px;
+	padding: 0;
+	// background-image: url("https://source.unsplash.com/Q_RBVFFXR_g");
+	#stars {
+		width: 100%;
+		height: 100vh;
+	}
+}
+#solarSystem {
+	position: relative;
+	#sun {
+		width: 5rem;
+		position: absolute;
+		top: 55vh;
+		left: 45%;
+	}
+	#mercury {
+		width: 1.5rem;
+		position: absolute;
+		top: 50vh;
+		left: 45%;
+	}
+	#venus {
+		width: 2.5rem;
+		position: absolute;
+		top: 42vh;
+		left: 45%;
+	}
+	#earth {
+		width: 3rem;
+		position: absolute;
+		top: 32vh;
+		left: 45%;
+	}
+	#mars {
+		width: 2.5rem;
+		position: absolute;
+		top: 25vh;
+		left: 45%;
+	}
+	#jupiter {
+		width: 3.3rem;
+		position: absolute;
+		top: 15vh;
+		left: 45%;
+	}
+}

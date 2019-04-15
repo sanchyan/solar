@@ -1,0 +1,56 @@
+body {
+  margin: 1px;
+  padding: 0;
+}
+
+body #stars {
+  width: 100%;
+  height: 100vh;
+}
+
+#solarSystem {
+  position: relative;
+}
+
+#solarSystem #sun {
+  width: 5rem;
+  position: absolute;
+  top: 55vh;
+  left: 45%;
+}
+
+#solarSystem #mercury {
+  width: 1.5rem;
+  position: absolute;
+  top: 50vh;
+  left: 45%;
+}
+
+#solarSystem #venus {
+  width: 2.5rem;
+  position: absolute;
+  top: 42vh;
+  left: 45%;
+}
+
+#solarSystem #earth {
+  width: 3rem;
+  position: absolute;
+  top: 32vh;
+  left: 45%;
+}
+
+#solarSystem #mars {
+  width: 2.5rem;
+  position: absolute;
+  top: 25vh;
+  left: 45%;
+}
+
+#solarSystem #jupiter {
+  width: 3.3rem;
+  position: absolute;
+  top: 15vh;
+  left: 45%;
+}
+/*# sourceMappingURL=style.css.map */
